@@ -11,8 +11,7 @@ export default function PrivacyPolicyPage() {
             Administrator danych
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Administratorem danych osobowych jest DAVIX. Kontakt e-mail:
-            biuro@davix.com.pl.
+            Administratorem danych osobowych jest Układanie kostki Grabowski.
           </p>
         </section>
 
@@ -57,7 +56,7 @@ export default function PrivacyPolicyPage() {
           <h2 className="text-2xl font-light text-white">Kontakt</h2>
           <p className="text-gray-300 leading-relaxed">
             W sprawach związanych z ochroną danych osobowych można kontaktować
-            się pod adresem e-mail: biuro@davix.com.pl.
+            się pod adresem e-mail: grabowski@wp.pl.
           </p>
         </section>
       </div>

@@ -21,9 +21,9 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "DAVIX – Układanie kostki brukowej i kamienia • Prace ziemne",
+  title: "Układanie kostki brukowej i kamienia • Prace ziemne",
   description:
-    "DAVIX Układanie kostki brukowej — Profesjonalne układanie kostki brukowej i kamienia, oraz wszelkie prace ziemne. Kontakt: 514 255 516 • biuro@davix.com.pl.",
+    "Układanie kostki Grabowski — Profesjonalne układanie kostki brukowej i kamienia, oraz wszelkie prace ziemne.",
   generator: "v0.app",
 };
 
