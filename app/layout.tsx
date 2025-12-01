@@ -23,7 +23,7 @@ const lora = Lora({
 export const metadata: Metadata = {
   title: "Układanie kostki brukowej i kamienia • Prace ziemne",
   description:
-    "Układanie kostki Grabowski — Profesjonalne układanie kostki brukowej i kamienia, oraz wszelkie prace ziemne.",
+    "Usługi Brukarskie Grabowski — Profesjonalne układanie kostki brukowej i kamienia, oraz wszelkie prace ziemne.",
   generator: "v0.app",
 };
 
