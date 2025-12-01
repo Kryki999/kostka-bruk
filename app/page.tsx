@@ -104,9 +104,6 @@ export default function HomePage() {
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-light text-white leading-tight">
             Profesjonalne układanie kostki brukowej
           </h1>
-          <p className="mt-6 text-lg sm:text-xl text-gray-300">
-            49 opinii • 903 obserwujący • 53 obserwowanych
-          </p>
 
           <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
             <a href={`tel:+48${PHONE.replace(/\s/g, "")}`}>

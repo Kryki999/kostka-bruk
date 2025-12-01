@@ -26,8 +26,8 @@ export default function SiteHeader() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${showSolidBackground
-          ? "bg-gray-900/95 backdrop-blur-sm border-b border-gray-800"
-          : "bg-transparent"
+        ? "bg-gray-900/95 backdrop-blur-sm border-b border-gray-800"
+        : "bg-transparent"
         }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4">
@@ -38,7 +38,7 @@ export default function SiteHeader() {
               className={`text-xl font-bold transition-colors duration-300 ${showSolidBackground ? "text-white" : "text-white/90"
                 }`}
             >
-              Usługi Brukarskie Grabowski
+              Usługi Brukarskie GRABOWSKI
             </Link>
           </div>
 
@@ -61,8 +61,8 @@ export default function SiteHeader() {
                 prefetch={false}
                 href="/#projects"
                 className={`text-sm transition-colors ${showSolidBackground
-                    ? "text-gray-300 hover:text-white"
-                    : "text-white/90 hover:text-white"
+                  ? "text-gray-300 hover:text-white"
+                  : "text-white/90 hover:text-white"
                   }`}
               >
                 REALIZACJE
@@ -71,8 +71,8 @@ export default function SiteHeader() {
                 prefetch={false}
                 href="/#services"
                 className={`text-sm transition-colors ${showSolidBackground
-                    ? "text-gray-300 hover:text-white"
-                    : "text-white/90 hover:text-white"
+                  ? "text-gray-300 hover:text-white"
+                  : "text-white/90 hover:text-white"
                   }`}
               >
                 OFERTA
@@ -81,8 +81,8 @@ export default function SiteHeader() {
                 prefetch={false}
                 href="/#references"
                 className={`text-sm transition-colors ${showSolidBackground
-                    ? "text-gray-300 hover:text-white"
-                    : "text-white/90 hover:text-white"
+                  ? "text-gray-300 hover:text-white"
+                  : "text-white/90 hover:text-white"
                   }`}
               >
                 REFERENCJE
@@ -103,8 +103,8 @@ export default function SiteHeader() {
             </a>
             <button
               className={`md:hidden inline-flex items-center justify-center rounded-md p-2 focus:outline-none focus:ring-2 transition-colors ${showSolidBackground
-                  ? "text-gray-200 hover:text-white hover:bg-gray-800 focus:ring-gray-700"
-                  : "text-white hover:text-white/90 focus:ring-white/30"
+                ? "text-gray-200 hover:text-white hover:bg-gray-800 focus:ring-gray-700"
+                : "text-white hover:text-white/90 focus:ring-white/30"
                 }`}
               aria-label="Toggle menu"
               onClick={() => setIsMenuOpen((prev) => !prev)}

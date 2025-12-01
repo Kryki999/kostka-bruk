@@ -577,9 +577,6 @@
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
   }
-  .mt-6 {
-    margin-top: calc(var(--spacing) * 6);
-  }
   .mt-8 {
     margin-top: calc(var(--spacing) * 8);
   }
@@ -768,9 +765,6 @@
   .h-40 {
     height: calc(var(--spacing) * 40);
   }
-  .h-48 {
-    height: calc(var(--spacing) * 48);
-  }
   .h-64 {
     height: calc(var(--spacing) * 64);
   }
@@ -779,9 +773,6 @@
   }
   .h-\[1\.15rem\] {
     height: 1.15rem;
-  }
-  .h-\[90vh\] {
-    height: 90vh;
   }
   .h-\[95vh\] {
     height: 95vh;
@@ -842,9 +833,6 @@
   }
   .min-h-\[380px\] {
     min-height: 380px;
-  }
-  .min-h-\[580px\] {
-    min-height: 580px;
   }
   .min-h-\[700px\] {
     min-height: 700px;
@@ -4134,12 +4122,6 @@
     @media (width >= 40rem) {
       font-size: var(--text-5xl);
       line-height: var(--tw-leading, var(--text-5xl--line-height));
-    }
-  }
-  .sm\:text-xl {
-    @media (width >= 40rem) {
-      font-size: var(--text-xl);
-      line-height: var(--tw-leading, var(--text-xl--line-height));
     }
   }
   .data-\[state\=open\]\:sm\:slide-in-from-bottom-full {
